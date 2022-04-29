@@ -1,0 +1,954 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class TaskManagerDataBaseContext
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class TaskManagerDataBaseContext
+   ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TaskManager.TaskManagerDataBaseContext">
+  
+  
+  <h1 id="TaskManager_TaskManagerDataBaseContext" data-uid="TaskManager.TaskManagerDataBaseContext" class="text-break">Class TaskManagerDataBaseContext
+  </h1>
+  <div class="markdown level0 summary"><p>Class responsible for managing the database context</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">System.Data.Entity.DbContext</span></div>
+    <div class="level2"><span class="xref">TaskManagerDataBaseContext</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">System.IDisposable</span></div>
+    <div><span class="xref">System.Data.Entity.Infrastructure.IObjectContextAdapter</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.OnModelCreating(System.Data.Entity.DbModelBuilder)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Set&lt;TEntity&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Set(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.SaveChanges()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.SaveChangesAsync()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.SaveChangesAsync(System.Threading.CancellationToken)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.GetValidationErrors()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.ShouldValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.ValidateEntity(System.Data.Entity.Infrastructure.DbEntityEntry, System.Collections.Generic.IDictionary&lt;System.Object, System.Object&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Entry&lt;TEntity&gt;(TEntity)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Entry(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Dispose()</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Dispose(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Database</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.ObjectContext</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.ChangeTracker</span>
+    </div>
+    <div>
+      <span class="xref">System.Data.Entity.DbContext.Configuration</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">System.Object.MemberwiseClone()</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TaskManager.html">TaskManager</a></h6>
+  <h6><strong>Assembly</strong>: TaskManager.dll</h6>
+  <h5 id="TaskManager_TaskManagerDataBaseContext_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class TaskManagerDataBaseContext : DbContext, IDisposable, IObjectContextAdapter</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext__ctor_" data-uid="TaskManager.TaskManagerDataBaseContext.#ctor*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext__ctor" data-uid="TaskManager.TaskManagerDataBaseContext.#ctor">TaskManagerDataBaseContext()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TaskManagerDataBaseContext()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_Dates_" data-uid="TaskManager.TaskManagerDataBaseContext.Dates*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_Dates" data-uid="TaskManager.TaskManagerDataBaseContext.Dates">Dates</h4>
+  <div class="markdown level1 summary"><p>Collection of all Dates in the database</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Date&gt; Dates { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="TaskManager.Date.html">Date</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_Tasks_" data-uid="TaskManager.TaskManagerDataBaseContext.Tasks*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_Tasks" data-uid="TaskManager.TaskManagerDataBaseContext.Tasks">Tasks</h4>
+  <div class="markdown level1 summary"><p>Collection of all Tasks in the database</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DbSet&lt;Task&gt; Tasks { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Data.Entity.DbSet</span>&lt;<a class="xref" href="TaskManager.Task.html">Task</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_AddNewDate_" data-uid="TaskManager.TaskManagerDataBaseContext.AddNewDate*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_AddNewDate_System_Int32_System_String_" data-uid="TaskManager.TaskManagerDataBaseContext.AddNewDate(System.Int32,System.String)">AddNewDate(Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Adds a new Date to database</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddNewDate(int id, string date)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>ID of new date</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>date in string format, later to be parsed into DateTime using CultureInfo.CreateSpecificCulture(&quot;de-DE&quot;)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_AddNewDate_" data-uid="TaskManager.TaskManagerDataBaseContext.AddNewDate*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_AddNewDate_TaskManager_Date_" data-uid="TaskManager.TaskManagerDataBaseContext.AddNewDate(TaskManager.Date)">AddNewDate(Date)</h4>
+  <div class="markdown level1 summary"><p>Adds a new Date to database using a Date object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddNewDate(Date date)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TaskManager.Date.html">Date</a></td>
+        <td><span class="parametername">date</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_AddNewTask_" data-uid="TaskManager.TaskManagerDataBaseContext.AddNewTask*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_AddNewTask_System_Int32_System_String_System_Boolean_System_Int32_" data-uid="TaskManager.TaskManagerDataBaseContext.AddNewTask(System.Int32,System.String,System.Boolean,System.Int32)">AddNewTask(Int32, String, Boolean, Int32)</h4>
+  <div class="markdown level1 summary"><p>Adds new Task to the database,</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddNewTask(int Id = 0, string name = &quot; &quot;, bool im = false, int date_id = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">Id</span></td>
+        <td><p>ID of new task</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Task name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">im</span></td>
+        <td><p>Importance in boolean form</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">date_id</span></td>
+        <td><p>ID of date to assign</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_AddNewTask_" data-uid="TaskManager.TaskManagerDataBaseContext.AddNewTask*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_AddNewTask_System_Int32_System_String_System_String_System_Int32_" data-uid="TaskManager.TaskManagerDataBaseContext.AddNewTask(System.Int32,System.String,System.String,System.Int32)">AddNewTask(Int32, String, String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Adds new Task to the database</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddNewTask(int Id = 0, string name = &quot;empty&quot;, string im_str = &quot;false&quot;, int date_id = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">Id</span></td>
+        <td><p>ID of new task</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Task name</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">im_str</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">date_id</span></td>
+        <td><p>ID of date to assign</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_AddNewTask_" data-uid="TaskManager.TaskManagerDataBaseContext.AddNewTask*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_AddNewTask_TaskManager_Task_" data-uid="TaskManager.TaskManagerDataBaseContext.AddNewTask(TaskManager.Task)">AddNewTask(Task)</h4>
+  <div class="markdown level1 summary"><p>Adds new Task to the database</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void AddNewTask(Task task)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TaskManager.Task.html">Task</a></td>
+        <td><span class="parametername">task</span></td>
+        <td><p>Object of the Task class</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_DeleteDate_" data-uid="TaskManager.TaskManagerDataBaseContext.DeleteDate*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_DeleteDate_System_Int32_" data-uid="TaskManager.TaskManagerDataBaseContext.DeleteDate(System.Int32)">DeleteDate(Int32)</h4>
+  <div class="markdown level1 summary"><p>Deletes Date from Database by ID</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeleteDate(int date_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">date_id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_DeleteDate_" data-uid="TaskManager.TaskManagerDataBaseContext.DeleteDate*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_DeleteDate_TaskManager_Date_" data-uid="TaskManager.TaskManagerDataBaseContext.DeleteDate(TaskManager.Date)">DeleteDate(Date)</h4>
+  <div class="markdown level1 summary"><p>Deletes Date from Database by object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeleteDate(Date date)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TaskManager.Date.html">Date</a></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>needs to be an exact copy</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_DeleteTask_" data-uid="TaskManager.TaskManagerDataBaseContext.DeleteTask*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_DeleteTask_System_Int32_" data-uid="TaskManager.TaskManagerDataBaseContext.DeleteTask(System.Int32)">DeleteTask(Int32)</h4>
+  <div class="markdown level1 summary"><p>Deletes task from database by ID</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeleteTask(int task_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">task_id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_DeleteTask_" data-uid="TaskManager.TaskManagerDataBaseContext.DeleteTask*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_DeleteTask_TaskManager_Task_" data-uid="TaskManager.TaskManagerDataBaseContext.DeleteTask(TaskManager.Task)">DeleteTask(Task)</h4>
+  <div class="markdown level1 summary"><p>Deletes task from database</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void DeleteTask(Task task)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TaskManager.Task.html">Task</a></td>
+        <td><span class="parametername">task</span></td>
+        <td><p>task needs to be 1:1 with the one to be deleted</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_GetDate_" data-uid="TaskManager.TaskManagerDataBaseContext.GetDate*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_GetDate_System_DateTime_" data-uid="TaskManager.TaskManagerDataBaseContext.GetDate(System.DateTime)">GetDate(DateTime)</h4>
+  <div class="markdown level1 summary"><p>Retrieves a Date by date </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Date GetDate(DateTime date)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>needs to be in DateTime format</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TaskManager.Date.html">Date</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_GetDate_" data-uid="TaskManager.TaskManagerDataBaseContext.GetDate*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_GetDate_System_Int32_" data-uid="TaskManager.TaskManagerDataBaseContext.GetDate(System.Int32)">GetDate(Int32)</h4>
+  <div class="markdown level1 summary"><p>Retrieves a Date by ID</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Date GetDate(int DateID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">DateID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TaskManager.Date.html">Date</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_GetDate_" data-uid="TaskManager.TaskManagerDataBaseContext.GetDate*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_GetDate_System_String_" data-uid="TaskManager.TaskManagerDataBaseContext.GetDate(System.String)">GetDate(String)</h4>
+  <div class="markdown level1 summary"><p>Retrieves a Date by date </p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Date GetDate(string date)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>date in string format, later to be parsed into DateTime using CultureInfo.CreateSpecificCulture(&quot;de-DE&quot;)</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TaskManager.Date.html">Date</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_GetTask_" data-uid="TaskManager.TaskManagerDataBaseContext.GetTask*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_GetTask_System_DateTime_" data-uid="TaskManager.TaskManagerDataBaseContext.GetTask(System.DateTime)">GetTask(DateTime)</h4>
+  <div class="markdown level1 summary"><p>Returns a list of tasks from given date</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IList&lt;Task&gt; GetTask(DateTime date)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td><span class="parametername">date</span></td>
+        <td><p>date in DateTime format</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="TaskManager.Task.html">Task</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_GetTask_" data-uid="TaskManager.TaskManagerDataBaseContext.GetTask*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_GetTask_System_Int32_" data-uid="TaskManager.TaskManagerDataBaseContext.GetTask(System.Int32)">GetTask(Int32)</h4>
+  <div class="markdown level1 summary"><p>Retrieves a Task from the database by ID</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task GetTask(int TaskID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">TaskID</span></td>
+        <td><p>ID of wanted Task</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TaskManager.Task.html">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_GetTask_" data-uid="TaskManager.TaskManagerDataBaseContext.GetTask*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_GetTask_System_String_" data-uid="TaskManager.TaskManagerDataBaseContext.GetTask(System.String)">GetTask(String)</h4>
+  <div class="markdown level1 summary"><p>Retrieves a Task from the database by TaskName</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task GetTask(string task)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">task</span></td>
+        <td><p>TaskName of wanted Task</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TaskManager.Task.html">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_GetTask_" data-uid="TaskManager.TaskManagerDataBaseContext.GetTask*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_GetTask_TaskManager_Task_" data-uid="TaskManager.TaskManagerDataBaseContext.GetTask(TaskManager.Task)">GetTask(Task)</h4>
+  <div class="markdown level1 summary"><p>Retrieves a Task</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task GetTask(Task task)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TaskManager.Task.html">Task</a></td>
+        <td><span class="parametername">task</span></td>
+        <td><p>Looks for exact copy of &quot;task&quot; in database</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TaskManager.Task.html">Task</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_UpdateDate_" data-uid="TaskManager.TaskManagerDataBaseContext.UpdateDate*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_UpdateDate_TaskManager_Date_TaskManager_Date_" data-uid="TaskManager.TaskManagerDataBaseContext.UpdateDate(TaskManager.Date,TaskManager.Date)">UpdateDate(Date, Date)</h4>
+  <div class="markdown level1 summary"><p>Updates Date in database</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateDate(Date date_to_update, Date new_date)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TaskManager.Date.html">Date</a></td>
+        <td><span class="parametername">date_to_update</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TaskManager.Date.html">Date</a></td>
+        <td><span class="parametername">new_date</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TaskManager_TaskManagerDataBaseContext_UpdateTask_" data-uid="TaskManager.TaskManagerDataBaseContext.UpdateTask*"></a>
+  <h4 id="TaskManager_TaskManagerDataBaseContext_UpdateTask_TaskManager_Task_TaskManager_Task_" data-uid="TaskManager.TaskManagerDataBaseContext.UpdateTask(TaskManager.Task,TaskManager.Task)">UpdateTask(Task, Task)</h4>
+  <div class="markdown level1 summary"><p>Updates task to new task</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UpdateTask(Task task_to_update, Task new_task)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TaskManager.Task.html">Task</a></td>
+        <td><span class="parametername">task_to_update</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="TaskManager.Task.html">Task</a></td>
+        <td><span class="parametername">new_task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">System.IDisposable</span>
+  </div>
+  <div>
+      <span class="xref">System.Data.Entity.Infrastructure.IObjectContextAdapter</span>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

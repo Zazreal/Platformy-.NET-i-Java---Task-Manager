@@ -1,0 +1,58 @@
+﻿<Window x:Class="TaskManager.TaskInputWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskManager"
+        mc:Ignorable="d"
+        Title="TaskInputWindow" Height="225" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=" 20" />
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width=" 20" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="1" Grid.Row="1" FontSize="15" Margin="0,0,0,10"
+                   FontWeight="Bold" Text="Add Task" Grid.ColumnSpan="3"/>
+
+        <TextBlock Grid.Column="1" Grid.Row="2" FontSize="15" Margin="0,0,0,5"
+                   Text="Task Name: "/>
+        <TextBox Grid.Column="2" Grid.Row="2" Width="150" Height="25"  
+                 Margin="0,0,0,5" x:Name="TaskNameText"/>
+
+        <TextBlock Grid.Column="1" Grid.Row="3" FontSize="15" Margin="0,0,0,5"
+                   Text="Important: "/>
+        <TextBox Grid.Column="2" Grid.Row="3" Width="150" Height="25" 
+                 x:Name="ImportanceText"/>
+
+        <TextBlock Grid.Column="1" Grid.Row="4" FontSize="15" Margin="0,0,0,5"
+                   Text="Date: "/>
+        <TextBox Grid.Column="2" Grid.Row="4" Width="150" Height="25" 
+                 x:Name="TaskDateText"/>
+
+        <TextBlock Grid.Column="1" Grid.Row="5" FontSize="15" Margin="0,0,0,5"
+                   Text="Time: "/>
+        <TextBox Grid.Column="2" Grid.Row="5" Width="150" Height="25" 
+                 x:Name="TaskTimeText"/>
+
+        <Button Grid.Column="2" Grid.Row="6" Width ="100" Height="20" Margin="25,5,25,5"
+                x:Name="InputWindow_AddTask" Content="Add" Click="InputWindow_AddTask_Click"/>
+        
+    </Grid>
+</Window>

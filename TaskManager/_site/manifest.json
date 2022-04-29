@@ -1,0 +1,306 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/Tomek/source/repos_CS/TaskManager/TaskManager",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "efZS+4ojCo7lh7bOTnzKTqs6YEwabyWpzmkwhWP3oGI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "6Ga4h2moHjy2O4yxwJxF2FO8KM2ZmNqw8+VtIJ5GBr0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "BlPxk5mtl2kgfcZUgkEguqiSAR/EUyUTT4EdebwkQvs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "VppMFMFpV1CxY0Zfg+cwpjAFBZPAvchx2+sPEua5w8g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TaskManager.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.App.html",
+          "hash": "NdY9TCpCGY9VAtLDcQfbew3YN80IuU0icdS1Ub2/DQw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TaskManager.Date.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.Date.html",
+          "hash": "drUpE/4c54lY61nJVWLUxPVuxZas/ZT4jmLW8kcaasQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TaskManager.ForecastAPI.ForecastInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.ForecastAPI.ForecastInfo.html",
+          "hash": "AROgRxNiWIgX1HaR3KrEzvC3uIgWIMSab5v635f60y0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TaskManager.ForecastAPI.daily.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.ForecastAPI.daily.html",
+          "hash": "epT+bUEFv/Jr+1TPl/H7O/BzfU5FXUZasszpvHXL75w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TaskManager.ForecastAPI.temp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.ForecastAPI.temp.html",
+          "hash": "bscWhFGKqiknTevYh0mxsiD8hQLMUx+d5PyyOECJ5OE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TaskManager.ForecastAPI.weather.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.ForecastAPI.weather.html",
+          "hash": "9cE4Dd3Ycbx4VWAgGyRtOYB8HQm96YBeSH91RgIfI64="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TaskManager.ForecastAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.ForecastAPI.html",
+          "hash": "dp6hdsxL2TPjVTsctPqUSuyNnZJ87pKEkA1iDT0GrEk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TaskManager.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.MainWindow.html",
+          "hash": "SDJf81kAbbkG+c+DTv/7aK9QSzRXQSsEhPlff4337OA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TaskManager.Migrations.InitialCreate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.Migrations.InitialCreate.html",
+          "hash": "JkimuxcgugAlAWem/Tbx7eMUNqFRVIwKnX7hmjuCaKc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TaskManager.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.Migrations.html",
+          "hash": "nfscIy1k2NtcH05EIhq1Gmdsai4AeI2VvUWjdeDyCbI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TaskManager.Task.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.Task.html",
+          "hash": "kJnVbywZSQlfquYFW+8UOlNvpdv3sR2kT/3p6e7hYbY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TaskManager.TaskInputWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.TaskInputWindow.html",
+          "hash": "BwZhzd39dyX4wv3IPA15Zc9Dz6+8mfq8ipUXDs3F8Zc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TaskManager.TaskManagerDataBaseContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.TaskManagerDataBaseContext.html",
+          "hash": "dTtvaVPkXEQ+dWggNp5N9rT//Xp87S5DGzgUR9IwjSY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TaskManager.TaskManagerDbInitializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.TaskManagerDbInitializer.html",
+          "hash": "t0dq0Hjipf5Xj6cLBXIL/15ziZsR6fVRFJ1Axw7Jp4U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TaskManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TaskManager.html",
+          "hash": "QDeRYqswXsN2xaRveGEqHy1z1zXr+OtMXLCDAsVSslc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "6H7JUGpgU+GMJmwMZUzesRtsnWI68phIewU/zxdxe+8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "Oa9PuD4E1hvZnCkVjUgzNBX6S00Zo5YilamTERTZo54="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 15,
+          "skipped_file_count": 14
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
